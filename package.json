@@ -4,6 +4,10 @@
   "description": "A Vue code component with syntax highlighting",
   "main": "index.js",
   "scripts": {
+    "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run dev -- --watch",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "test": "jest"
   },
   "repository": {
@@ -21,5 +25,13 @@
   "bugs": {
     "url": "https://github.com/joshgaber/vue-codearea/issues"
   },
-  "homepage": "https://github.com/joshgaber/vue-codearea#readme"
+  "homepage": "https://github.com/joshgaber/vue-codearea#readme",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "laravel-mix": "^5.0.0"
+  },
+  "dependencies": {
+    "prismjs": "^1.17.1",
+    "vue": "^2.6.10"
+  }
 }
