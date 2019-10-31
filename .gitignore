@@ -1,5 +1,6 @@
 # Node files
 node_modules/
+mix-manifest.json
 
 # Operating System Files
 .DS_Store
