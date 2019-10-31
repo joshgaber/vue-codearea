@@ -27,8 +27,10 @@
   },
   "homepage": "https://github.com/joshgaber/vue-codearea#readme",
   "devDependencies": {
+    "cross-env": "^6.0.3",
     "jest": "^24.9.0",
-    "laravel-mix": "^5.0.0"
+    "laravel-mix": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
     "prismjs": "^1.17.1",
