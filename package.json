@@ -1,0 +1,25 @@
+{
+  "name": "vue-codearea",
+  "version": "1.0.0",
+  "description": "A Vue code component with syntax highlighting",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/joshgaber/vue-codearea.git"
+  },
+  "keywords": [
+    "vue",
+    "prismjs",
+    "code",
+    "syntax"
+  ],
+  "author": "Josh Gaber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshgaber/vue-codearea/issues"
+  },
+  "homepage": "https://github.com/joshgaber/vue-codearea#readme"
+}
