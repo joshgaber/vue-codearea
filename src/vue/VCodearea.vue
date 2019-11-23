@@ -4,6 +4,7 @@
 
 <script>
 const Prism = require('prismjs');
+require('prismjs/themes/prism.css');
 
 export default {
   props: {
@@ -29,7 +30,6 @@ export default {
 </script>
 
 <style>
-@import url('../../node_modules/prismjs/themes/prism.css');
 .v-codearea.code-block {
   display: block;
   white-space: pre;
