@@ -9,14 +9,12 @@
     "./sfc": "src/vue/VCodearea.vue"
   },
   "scripts": {
-    "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
-    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/component.umd.js",
-    "build:es": "rollup --config build/rollup.config.js --format es --file dist/component.esm.js",
-    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/component.min.js"
+    "dist": "NODE_ENV=production npm run build",
+    "build": "rollup --config build/rollup.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/joshgaber/vue-codearea.git"
+    "url": "https://github.com/joshgaber/vue-codearea.git"
   },
   "keywords": [
     "vue",
@@ -31,14 +29,15 @@
   },
   "homepage": "https://github.com/joshgaber/vue-codearea#readme",
   "devDependencies": {
+    "acorn": "^6.3.0",
+    "prismjs": "^1.17.1",
     "rollup": "^1.26.2",
     "rollup-plugin-buble": "^0.19.8",
     "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-terser": "^5.1.2",
     "rollup-plugin-vue": "^5.1.2",
     "vue": "^2.6.10",
     "vue-template-compiler": "^2.6.10"
   },
-  "dependencies": {
-    "prismjs": "^1.17.1"
-  }
+  "dependencies": {}
 }
