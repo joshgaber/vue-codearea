@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/joshgaber/vue-codearea#readme",
   "devDependencies": {
-    "acorn": "^6.3.0",
+    "acorn": "^6.4.1",
     "prismjs": "^1.17.1",
     "rollup": "^1.26.2",
     "rollup-plugin-buble": "^0.19.8",
