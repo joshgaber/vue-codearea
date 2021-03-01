@@ -37,7 +37,7 @@
     "vue-template-compiler": "^2.6.11"
   },
   "dependencies": {
-    "prismjs": "^1.19.0",
+    "prismjs": "^1.23.0",
     "vue": "^2.6.11"
   }
 }
